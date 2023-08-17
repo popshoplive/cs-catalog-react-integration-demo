@@ -10,20 +10,20 @@ function App() {
     mountCSCatalog(containerElRef.current, {
       "apiUrl": "https://openapi.commentsoldhotel.com/v1",
       "baseUrl": "/cs-inventory",
-      "shopId": "2nysxf2saeoppjv3bheelzrjm2j2",
+      "shopId": "qjbmexervtgkjur4ajd9mc4aa2g3",
       "isShopOwner": true,
       "isSuperAdmin": true,
       "shopOwnerInfo": {
-        "name": "james0607 guo",
-        "streetAddress": "2309 sparrow",
-        "city": "forney",
-        "state": "TX",
-        "zip": "75126",
-        "countryCode": "US",
-        "email": "guoya0911@gmail.com",
-        "phoneNumber": "2763252467"
+        "name": "Test New",
+        "streetAddress": "2390 Powell ST UNIT 2511",
+        "city": "SAN FRANCISCO",
+        "state": "CA-California",
+        "zip": "94133-1442",
+        "countryCode": "CA",
+        "email": "north@qq.com",
+        "phoneNumber": "2223334445"
       },
-      "jwtToken": "K-0Nxeb_wW-IVa-tA7jgdKwE-xqHymbuIF_dUahrPrJyZjk80Zo5o1haRRRU9KXu7M9s19UshBQnnGTirf0M7ydewkwV-CiDCXHSVLJWYXaC3Dq26KxRF7MCjweraPJp2MYTGsgQzmpc_Hibb4FHNObNG5Wx5KzRhuTxLYOwC0SeblVVlE4iWA6riMIP77AfYHidg8V_tC22T4IA88eWApKHMCrTtUK3rpO_IgtzWqpWnFPDd1bwx95wJbGNd1djK9Dx-QgWJ86fd2NPdBk_S7NMV1-iwb5EksYGmxNrGFzj7Tr7dkey0fnE6-b8dJGFblI2PIH6aIz0Lk_rRf1S9A"
+      "jwtToken": "TVRw8TCTA__8J4LfXQ0HRaNaKLxVzFinyQPePgulv_dccQKXnjQJBYeq82DAx23DdSCHiRZAqFe0I2AZnVBoOZkgTwSvK68DdUBmcHOY566r1LLnb0WZBhmGVXRQfTe4d8GCq83Zmm77NxotLGmJ9ToXQN_Twdpt1OAeDe01VXRohXEgi0TvRe-0kl8lFXvs77ghFLOY2I2HFNm1vDKhL_mpr641YPE6TQwDT6Bq_MLwBQspH4fdkqkaGecP1GzvQwFXhYOSJFYl6Rn14EUEIOU2AFh0cNvS2jBjetuAR1EeRPTKKl7Ez18mjyrJsfWg95xfxGhG0OdZccJJYHC7DA"
     });
   }, []);
   return (
